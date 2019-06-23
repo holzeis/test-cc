@@ -32,7 +32,7 @@ func main() {
 
 // Init Function - Called when the user deploys the chaincode
 func (test *Test) Init(stub shim.ChaincodeStubInterface) pb.Response {
-	logger.Infof("Chaincode initialized!!")
+	logger.Infof("Test chaincode initialized!!")
 
 	return shim.Success(nil)
 }
